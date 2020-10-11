@@ -4766,6 +4766,7 @@ GameObject:
   - component: {fileID: 33168641610322978}
   - component: {fileID: 23537688779314044}
   - component: {fileID: 65707845505491674}
+  - component: {fileID: -576262672199741229}
   m_Layer: 0
   m_Name: Waypoint 01
   m_TagString: Untagged
@@ -4843,8 +4844,21 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620071135427400}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.8516799, y: 0.06853887, z: 0.8516799}
   m_Center: {x: 0, y: 0.023466047, z: 0}
+--- !u!114 &-576262672199741229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620071135427400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b96ea54f11279d4a8ace35f0578fbde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exit: {fileID: 0}
