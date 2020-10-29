@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class LevelEnemyBahavior : MonoBehaviour
 {
+    public int id;
+    public EnemyData enemyData;
     private TransitionManager transitionManager;
 
     private void Start()
     {
-        transitionManager = GameObject.FindObjectOfType<TransitionManager>();    
+        transitionManager = GameObject.FindObjectOfType<TransitionManager>();
+        enemyData = DataManager.Instance.GetEnemyData(id);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -17,5 +20,10 @@ public class LevelEnemyBahavior : MonoBehaviour
         {
             transitionManager.ChangeScene("BattleScene");
         }
+    }
+
+    private void OnMouseEnter()
+    {
+        Debug.Log(name);
     }
 }

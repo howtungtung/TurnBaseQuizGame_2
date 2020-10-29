@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "獸人",
+    "hp": 5,
+    "atk": 1,
+    "battleTurn": 5
+  },
+  {
+    "id": 2,
+    "name": "飛龍",
+    "hp": 10,
+    "atk": 10,
+    "battleTurn": 3
+  }
+]
