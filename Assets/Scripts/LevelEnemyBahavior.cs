@@ -22,6 +22,7 @@ public class LevelEnemyBahavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             DataManager.Instance.battleEnemyData = enemyData;
+            DataManager.Instance.playerHP = other.GetComponent<CharacterData>().hp;
             transitionManager.ChangeScene("BattleScene");
         }
     }

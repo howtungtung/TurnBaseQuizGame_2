@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "quiz": "What's your name?",
+    "optionA": "Jason",
+    "optionB": "Jimmy",
+    "optionC": "Jim",
+    "optionD": "Jet",
+    "answer": 0
+  },
+  {
+    "id": 2,
+    "quiz": "How old are you?",
+    "optionA": 18,
+    "optionB": 24,
+    "optionC": 30,
+    "optionD": 38,
+    "answer": 2
+  }
+]
